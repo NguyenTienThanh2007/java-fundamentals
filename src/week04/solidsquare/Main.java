@@ -1,0 +1,17 @@
+package week04.solidsquare;
+
+import java.util.Scanner;
+public class Main {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter N: ");
+        int N = sc.nextInt();
+        for (int i =0; i<N; i++){
+            for (int z =0; z<N; z++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
