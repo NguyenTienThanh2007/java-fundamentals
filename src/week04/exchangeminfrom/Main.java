@@ -29,6 +29,7 @@ public class Main {
             System.out.println("Updated array: "+ Arrays.toString(result));
         }
     }
+
     public static int getIndexMinFrom (int[] numbers, int from){
         int indexMin = from;
         for(int i = from +1; i < numbers.length ; i++){
